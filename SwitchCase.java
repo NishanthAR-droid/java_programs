@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class SwitchCase {
  public static void main(String args []){
 	 int choice;
-	 System.out.println("Pick one: 101.blue\t2.red\t3.black\t");
+	 System.out.println("Pick one: 1.blue\t2.red\t3.black\t");
 	 Scanner s = new Scanner(System.in);
 	 choice = s.nextInt();
 	switch(choice)
